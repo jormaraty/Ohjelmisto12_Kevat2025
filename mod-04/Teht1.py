@@ -18,6 +18,8 @@ while luku <= 1000:
     # tulostetaan luku, jos se on jaollinen kolmella?
     if luku % 3 == 0:
         print(luku)
+
+    # muista lisätä muuttujan 'luku' arvoa!
     luku += 1       # luku = luku + 1
 
 print("Homma tehty!")
