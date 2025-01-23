@@ -15,7 +15,7 @@ import math
 luku = 1
 
 while luku <= 1000:
-    # onko luku jaollinen kolmella?
+    # tulostetaan luku, jos se on jaollinen kolmella?
     if luku % 3 == 0:
         print(luku)
     luku += 1       # luku = luku + 1
