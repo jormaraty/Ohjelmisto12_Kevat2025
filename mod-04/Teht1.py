@@ -3,13 +3,15 @@
     väliltä 1 ... 1000.
     Käytetään while-toistoa.
 """
-import math
 
 '''
     HUOM: koodaa tehtävä itse 'tyhjältä pöydältä',
     jos while-toisto on sinulle uusi asia.
 '''
 
+import math
+
+# tämä muuttuja saa arvot 1, 2, 3, ... 1000
 luku = 1
 
 while luku <= 1000:
