@@ -19,9 +19,12 @@ while luku_str != "":
     # muunnetaan luettu merkkijono numeroksi
     luku = float(luku_str)
 
-    # oliko uusi luku suurin tai pienin?
+    # jos käyttäjä antoi vielä pienemmän arvon, kuin muuttujan 'pienin' nykyinen arvo on, niin
     if luku < pienin:
+        # sijoitetaan muuttujan 'pienin' uudeksi arvoksi käyttäjän antama arvo
         pienin = luku
+
+    # vastaavasti, jos käyttäjä antoi isomman luvun kuin muuttujan 'suurin' arvo
     if luku > suurin:
         suurin = luku
 
@@ -31,5 +34,3 @@ while luku_str != "":
 # tulostetaan suurin ja pienin saaduista luvuista
 print(f"Suurin antamasi luku oli: {suurin}")
 print(f"Pienin antamasi luku oli: {pienin}")
-
-
