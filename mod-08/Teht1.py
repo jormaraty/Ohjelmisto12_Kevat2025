@@ -1,6 +1,6 @@
 '''
     Tässä on vähän alkua tehtävään 1, ei hae kaikkia tietoja.
-    Testattu 6.12, että toimii PyCarm:lla seuraavalla konfiguraatiolla:
+    Testattu 6.12, että toimii PyCharm:lla seuraavalla konfiguraatiolla:
     - python interpreter: 3.13
     - mysql-connector-python: 9.2.0 (uusin)
 '''
@@ -8,8 +8,8 @@
 '''
 Suositellaan että mikään sovellus ei käytä tietokannan (root) tunnuksia.
 Tosi vaarallista, jos pääkäyttäjän tunnukset leviävät ilkeille tahoille.
-Tätä varten tietokantaan on luotu tunnus 'peruskäyttäjä', jolla on vain
-oikeudet vain komentoja select, insert ja update.
+Tätä varten tietokantaan on luotu tunnus 'peruskäyttäjä', jolla on
+oikeudet käyttää vain komentoja select, insert ja update.
 '''
 
 # Havaittiin, että PyCharm saattaa jotenkin seota, jos alla olevan import lauseen kopioi.
