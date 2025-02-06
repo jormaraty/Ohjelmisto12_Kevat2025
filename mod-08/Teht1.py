@@ -6,10 +6,12 @@
 '''
 
 '''
-Suositellaan että mikään sovellus ei käytä tietokannan (root) tunnuksia.
+Suositellaan että mikään sovellus ei käytä tietokannan 
+pääkäyttäjän (root) tunnuksia.
 Tosi vaarallista, jos pääkäyttäjän tunnukset leviävät ilkeille tahoille.
-Tätä varten tietokantaan on luotu tunnus 'peruskäyttäjä', jolla on
-oikeudet käyttää vain komentoja select, insert ja update.
+Tätä varten tietokantaan on luotu käyttäjätunnus 'peruskäyttäjä', 
+jolla on oikeudet käyttää vain komentoja select, insert ja update.
+Ohjeet tähän löytyvät Sql-materiaalin luku 1 / "PDF Työvälineet työtavat".
 '''
 
 # Havaittiin, että PyCharm saattaa jotenkin seota, jos alla olevan import lauseen kopioi.
