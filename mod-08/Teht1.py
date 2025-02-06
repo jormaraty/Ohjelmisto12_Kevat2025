@@ -14,7 +14,7 @@ oikeudet vain komentoja select, insert ja update.
 
 # Havaittiin, että PyCharm saattaa jotenkin seota, jos alla olevan import lauseen kopioi.
 # Kirjoita alla oleva komento käsin, niin sitten pitäisi toimia?!?
-import mysql.connector
+# import mysql.connector
 
 def hae_kentan_tiedot(icao):
     sql = f"SELECT name FROM airport where ident='{icao}'"
