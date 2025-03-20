@@ -4,12 +4,13 @@
 class Auto:
     # määritellään luokan konstruktori eli alustaja.
     # Luokalla on 4 ominaisuutta.
-    # Tämä alustaja asettaa luotavan olion ominaisuuksien arvoksi nyt
-    # vain 2 ensimmäistä parametreina saamaansa arvoa (rekkari, huippunopeus).
-    # Viimeiset 2 ominaisuutta (nopeus, matka) saavat arvoksi 0.
-    # def __init__(self, rekisteritunnus, maxnopeus, nopeus = 0, matka = 0):
+    # Alustaja pyytää nyt käyttäjältä vain 2 ominaisuuden arvot (rekkari, huippunopeus),
+    # ja asettaa saamansa arvot luotavalle oliolle.
+    # Viimeiset 2 ominaisuutta (nopeus, matka) alustaja asettaa aina nollaksi.
+
     def __init__(self, rekisteritunnus, maxnopeus):
         self.rekisteritunnus = rekisteritunnus
+        # Parametrin nimi (maxnopeus) ei tarvitse olla sama kuin luokan ominaisuus (huippunopeus).
         self.huippunopeus = maxnopeus
         # alustaja asettaa nyt nopeuden ja matkan aina nollaksi.
         self.nopeus = 0
@@ -18,10 +19,10 @@ class Auto:
 
 # pääohjelma, joka hyödyntää Auto-luokkaa
 
-# luodaan uusi Auto-tyyppinen olio. Olion nimi on ekaAuto.
+# luodaan uusi Auto-tyyppinen olio. Olion nimi on nyt ekaAuto.
 ekaAuto = Auto("ABC-123", 142 )
 
-# tulostetaan olion kaikki ominaisuudet
+# tulostetaan olion kaikki ominaisuudet, tekniikalla olionNimi.ominaisuus
 print("Auto-tyyppisen olion kaikki ominaisuudet")
 print(f"rekkari: {ekaAuto.rekisteritunnus}")
 print(f"huippunopeus: {ekaAuto.huippunopeus}")
