@@ -21,7 +21,7 @@ class Hissi:
 
 # pääohjelma
 testiHissi = Hissi(1, 7)
-print(f"hissi on {testiHissi.nykyinen_kerros}. kerroksessa")
+print(f"hissi on aluksi {testiHissi.nykyinen_kerros}. kerroksessa")
 # väliaikainen testi
 testiHissi.kerros_ylös()
 # lopullisessa testissä pääohjelma kutsuu siirry_kerrokseen -metodia.
