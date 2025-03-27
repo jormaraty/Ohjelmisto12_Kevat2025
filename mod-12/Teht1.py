@@ -36,7 +36,7 @@ try:
         print(json_vastaus["value"])
 
 except requests.exceptions.RequestException as e:
-    # tähän tullaan, jos tapahtui request-paketin havaitsema virhe
+    # tähän tullaan, jos tapahtui requests-paketin havaitsema virhe
     print ("Hakua ei voitu suorittaa.")
 except Exception as ex:
     # tänne tullaan kaikissa muissa virhetilanteissa
